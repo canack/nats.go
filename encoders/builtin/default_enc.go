@@ -21,8 +21,6 @@ import (
 	"unsafe"
 )
 
-//
-//
 // DefaultEncoder implementation for EncodedConn.
 // This encoder will leave []byte and string untouched, but will attempt to
 // turn numbers into appropriate strings that can be decoded. It will also
